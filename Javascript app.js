@@ -24,4 +24,21 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   });
   
+ // Scroll to top button functionality
+document.addEventListener('scroll', function () {
+    const scrollTopButton = document.querySelector('.scroll-to-top');
+    
+    if (window.scrollY > 300) {
+      scrollTopButton.classList.add('visible');
+    } else {
+      scrollTopButton.classList.remove('visible');
+    }
+  });
+  
+  document.querySelector('.scroll-to-top').addEventListener('click', function () {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }); 
   
