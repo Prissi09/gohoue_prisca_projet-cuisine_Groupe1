@@ -39,8 +39,8 @@
             background-color: #f1ac5033;
         }
         .hero {
-            padding: 100px 0;
-            background: linear-gradient(to right, white 50%, #FF9D02 50%);
+            padding: 200px 0;
+            background: url(./images/back.png) no-repeat top center;
         }
         .hero-content {
             padding-right: 50px;
@@ -62,59 +62,61 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand fw-bold" href="#">Pixelspark.co</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
-                </ul>
-                <div class="ms-3">
-                    <img src="images/search.png" width="30">
-                    <img src="images/cart.png" width="20">
-                </div>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="container d-flex align-items-center">
-            <div class="row w-100 align-items-center">
-                <div class="col-md-6">
-                    <h6 class="text-primary">_Restaurant</h6>
-                    <h1 class="fw-bold fs-1">We Serve</h1>
-                    <h1 class="fw-bold fs-1">Delicious <span class="text-primary">Food</span></h1>
-                    <p class="mt-4">Keep it easy with these simple but delicious recipes from make-ahead lunches and midweek meals to fuss-free sides.</p>
-                    <button class="btn btn-primary mt-4">Get Started</button>
-                </div>
-                <div class="col-md-6 text-end">
-                    <img src="images/acceuil.png" width="700" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </section>
+     <div class="back">
+       <nav class="navbar navbar-expand-lg navbar-light">
+           <div class="container" style="background: transparent;">
+               <a class="navbar-brand fw-bold" href="#">pixelspark.co</a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                   <ul class="navbar-nav ms-auto">
+                       <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                       <li class="nav-item"><a class="nav-link" href="#">About Us</a></li>
+                       <li class="nav-item"><a class="nav-link" href="#">Menu</a></li>
+                       <li class="nav-item"><a class="nav-link" href="#">Testimonials</a></li>
+                       <li class="nav-item"><a class="nav-link" href="#">Contact Us</a></li>
+                   </ul>
+                   <div class="ms-3">
+                       <img src="images/search.png" width="30">
+                       <img src="images/cart.png" width="20">
+                   </div>
+               </div>
+           </div>
+       </nav>
+   
+       <!-- Hero Section -->
+       <section class="hero">
+           <div class="container d-flex align-items-center">
+               <div class="row w-100 align-items-center">
+                   <div class="col-md-6">
+                       <h6 class="text-primary">_Restaurant</h6>
+                       <h1 style="font-size: 65px;" class="fw-bold fs-0">We Serve</h1>
+                       <h1 style="font-size: 65px;" class="fw-bold">Delicious <span class="text-primary">Food</span></h1>
+                       <p class="mt-4" style="font-size: 20px;">Keep it easy with these simple but delicious recipes from make-ahead lunches and midweek meals to fuss-free sides.</p>
+                       <button class="btn btn-primary mt-4">Get Started</button>
+                   </div>
+                   <div class="col-md-6 text-end" style="margin-bottom: 100px;">
+                      
+                   </div>
+               </div>
+           </div>
+       </section>
+     </div>
 
     <!-- About Section -->
     <section class="about py-5">
         <div class="container d-flex align-items-center justify-content-between">
                 <div class="col-md-6">
-                    <img src="/images/Plat3.png" width="800" class="img-fluid">
+                    <img src="./images/Plat3.png" width="800" class="img-fluid">
                 </div>
                 <div class="ms-5">
                     <div class="text-start">
-                        <div class="col-md-8">
+                        <div class="col-md-12">
                             <h1 class="fw-bold fs-1">About <span class="text-primary">Us</span></h1>
                             <p class="mt-4">Keep healthy food readily available. When you get hungry, you're mroe likely to eat the first thing you see on the counter. Keep healthy food readily available. When you get hungry, you're moe likely to eat the first thing you see on the counter. Keep healthy food readily available.</p>
                             <div class="mt-4">
-                            <button class="btn btn-primary">More About</button>
+                            <button class="btn btn-primary">View more</button>
                             </div>
                         </div>
                     </div>
@@ -130,11 +132,11 @@
   <section class="popular-food py-5">
     <div class="container">
       
-      <h2 class="fw-bold fs-1 text-center">Most Popular <span class="text-primary">Food</span></h2>
+      <h2 style="margin-bottom: 70px;" class="fw-bold fs-1 text-center">Most Popular <span class="text-primary">Food</span></h2>
       <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
           <div class="col">
             <div class="card shadow-sm">
-              <img src="/images/Plat 8.png" alt="" srcset=""></title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+              <img src="./images/Plat 8.png" alt="" srcset=""></title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
               <div class="card-body">
                   <div class="d-flex justify-content-between align-items-center">
                       <h4>Breakfast Food</h4>
@@ -163,7 +165,7 @@
           </div>
           <div class="col">
               <div class="card shadow-sm">
-                <img src="/images/Plat 8.png" alt="" srcset=""></title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                <img src="./images/Plat 8.png" alt="" srcset=""></title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
                         <h3>Lunch Food</h3>
@@ -192,7 +194,7 @@
             </div>
             <div class="col">
               <div class="card shadow-sm">
-                <img src="/images/Plat 8.png" alt="" srcset=""><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
+                <img src="./images/Plat 8.png" alt="" srcset=""><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em"></text></svg>
                 <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
                         <h3>Dinner Food</h3>
@@ -234,7 +236,7 @@
             <div class="col">
                 <div class="card shadow-sm">
                   <div class="card-body">
-                      <img class="mb-4" src="/images/Icone plat 5.png" width="50">
+                      <img class="mb-4" src="./images/Icone plat 5.png" width="50">
                   <h3>Quality Food</h3>
                     <p class="card-text">Keep healthy tood readily available When you get hungry,youre mroe licely to bat</p>
                     <div class="d-flex justify-content-between align-items-center">
@@ -245,7 +247,7 @@
             <div class="col">
                 <div class="card shadow-sm">
                   <div class="card-body">
-                      <img class="mb-4" src="/images/Incone café.png" width="50">
+                      <img class="mb-4" src="./images/Incone café.png" width="50">
                   <h3>Super Taste</h3>
                     <p class="card-text">Keep heathy food readily availab When you gat hungry, youre mroo likaly to eat</p>
                     <div class="d-flex justify-content-between align-items-center">
@@ -256,7 +258,7 @@
             <div class="col">
               <div class="card shadow-sm">
                 <div class="card-body">
-                    <img class="mb-4" src="/images/Délivery-removebg-preview.png" width="50">
+                    <img class="mb-4" src="./images/Délivery-removebg-preview.png" width="50">
                 <h3>Fast Delivery</h3>
                   <p class="card-text">Keep heathy food readily availabie When you gat hungry, youre mroo likaly to eat</p>
                   <div class="d-flex justify-content-between align-items-center">
@@ -278,7 +280,7 @@
       <div class="col-md-6">
         <div class="testimonial">
           <div class="customer-info d-flex align-items-center">
-            <img src="images/deli.png" alt="Customer" class="rounded-circle" width="50">
+            <img src=".images/deli.png" alt="Customer" class="rounded-circle" width="50">
             <div class="customer-details ms-3">
               <h4>Mary Lucketch</h4>
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="orange" class="bi bi-star-fill" viewBox="0 0 16 16">
@@ -299,7 +301,7 @@
       </div>
       <div class="col-md-6">
           <div class="hero-image">
-            <img src="/images/Plat 4.png" class="rounded float-end" width="500">
+            <img src="./images/Plat 4.png" class="rounded float-end" width="500">
           </div>
       </div>
     </div> 
