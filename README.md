@@ -55,6 +55,7 @@ git commit -m "Initial commit"
 git branch -M main
 git remote add origin https://github.com/Prissi09/gohoue_prisca_projet-cuisine_Groupe1
 git push -u origin main
+```
 
 Etape3 : Activer GitHub Pages du site
 1. Va sur ton dépôt GitHub.
