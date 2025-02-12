@@ -71,9 +71,11 @@ yml
 theme: minima
 
 Mettre à jour le site
-Si tu modifies le site, pense à envoyer les changements avec :
-bash
+
+
+Si tu modifies le site, pense à envoyer les changements avec bash:
+```
 git add .
 git commit -m "Mise à jour du site"
 git push origin main
-
+```
